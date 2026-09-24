@@ -1,6 +1,6 @@
-# Probabilistic Fusion of Global Spatial Attention and Local Multi-Component Intensity Statistics for Hemorrhage Detection
+# Beyond XAI: Bayesian Fusion of Class Activation Maps and CT Intensity Improves Intracranial Hemorrhage Localization
 
-Code for weakly supervised localization of intracranial hemorrhage in non-contrast head CT. A slice-level classifier is trained with image-level labels only. Its class activation map (or ViT attention map) is then fused with Hounsfield-unit statistics through a closed-form ternary Bayesian posterior (hemorrhage, cranial bone, background), and thresholded with hysteresis to give a pixel-level mask.
+Code for explainable localization of intracranial hemorrhage in non-contrast head CT. A slice-level classifier is trained with image-level labels only. Its class activation map (or ViT attention map) is then fused with Hounsfield-unit statistics through a closed-form ternary Bayesian posterior (hemorrhage, cranial bone, background), and thresholded with hysteresis to give a pixel-level mask.
 
 ## Repository layout
 
